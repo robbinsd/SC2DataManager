@@ -1,0 +1,1 @@
+MapPath=Attachment comp.SC2Map

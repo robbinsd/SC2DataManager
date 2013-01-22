@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ba2f10af-b944-4c0a-a3b3-c59f399349c9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{d6caf304-34d9-4f24-8d9b-32c3a4b67078}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generic GUI Stuff">
+      <UniqueIdentifier>{83f2a905-74b1-4cb5-b7a9-1d9c07d3f224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic GUI Stuff\Header Files">
+      <UniqueIdentifier>{cf9f06fb-5b43-45b6-9556-73e6ca0dedb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic GUI Stuff\Source Files">
+      <UniqueIdentifier>{4aebcd19-0598-4135-b05f-189100f50d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataImporter">
+      <UniqueIdentifier>{feeae159-cb2d-4890-892b-7b630a85a8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PugiXML">
+      <UniqueIdentifier>{538f71bf-c69a-44ec-8238-f44a5862255e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="muParser">
+      <UniqueIdentifier>{b3e6452b-48e0-47c2-9a31-a9d097b0811f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3c749743-625e-490a-9157-81dd80d9a7b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Generic_GUI_Stuff\SC2MapBrowser.cpp">
+      <Filter>Generic GUI Stuff\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParser.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserBase.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserBytecode.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserCallback.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserDLL.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserError.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserInt.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserTest.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="include\muParser\muParserTokenReader.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Generic_GUI_Stuff\CheckboxTreeWidget.cpp">
+      <Filter>Generic GUI Stuff\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\CustomItem.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ErrorLogger.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FilesystemUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\LoadXML.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MapManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NodeMatch.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Template.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DataImporter\mainwindow.cpp">
+      <Filter>DataImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="include\PugiXML\pugixml.cpp">
+      <Filter>PugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="DataImporter\main.cpp">
+      <Filter>DataImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CheckboxTreeWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstantLineEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SC2MapBrowser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SC2MapPicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SC2MapPicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Generic_GUI_Stuff\InstantLineEdit.h">
+      <Filter>Generic GUI Stuff\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DataImporter\mainwindow.ui">
+      <Filter>DataImporter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Generic_GUI_Stuff\CheckboxTreeWidget.h">
+      <Filter>Generic GUI Stuff\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Generic_GUI_Stuff\SC2MapBrowser.h">
+      <Filter>Generic GUI Stuff\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Generic_GUI_Stuff\InstantLineEdit.cpp">
+      <Filter>Generic GUI Stuff\Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DataImporter\mainwindow.h">
+      <Filter>DataImporter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Generic_GUI_Stuff\SC2MapPicker.h">
+      <Filter>Generic GUI Stuff\Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\PugiXML\pugiconfig.hpp">
+      <Filter>PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PugiXML\pugixml.hpp">
+      <Filter>PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserTokenReader.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParser.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserBase.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserBytecode.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserCallback.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserDef.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserDLL.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserError.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserFixes.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserInt.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserStack.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserTemplateMagic.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserTest.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\muParser\muParserToken.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic_GUI_Stuff\SafeSlotDefinitions.h">
+      <Filter>Generic GUI Stuff\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CommonConstants.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Template.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\CustomItem.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ErrorLogger.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FilesystemUtils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\LoadXML.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MapManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NodeMatch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

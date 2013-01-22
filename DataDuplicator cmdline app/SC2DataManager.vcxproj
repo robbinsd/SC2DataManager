@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{971CEB30-A53D-4859-B4B4-7574C2CB0D27}</ProjectGuid>
+    <RootNamespace>SC2DataManager</RootNamespace>
+    <ProjectName>SC2DataManager</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\boost\boost_1_44;..\include\PugiXML;..\include\muParser;..\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\boost\boost_1_44;..\include\PugiXML;..\include\muParser;..\Core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\CustomItem.cpp" />
+    <ClCompile Include="..\Core\ErrorLogger.cpp" />
+    <ClCompile Include="..\Core\FilesystemUtils.cpp" />
+    <ClCompile Include="..\Core\LoadXML.cpp" />
+    <ClCompile Include="..\Core\MapManager.cpp" />
+    <ClCompile Include="..\Core\NodeMatch.cpp" />
+    <ClCompile Include="..\Core\Template.cpp" />
+    <ClCompile Include="..\Core\CustomItemReader.cpp" />
+    <ClCompile Include="..\include\muParser\muParser.cpp" />
+    <ClCompile Include="..\include\muParser\muParserBase.cpp" />
+    <ClCompile Include="..\include\muParser\muParserBytecode.cpp" />
+    <ClCompile Include="..\include\muParser\muParserCallback.cpp" />
+    <ClCompile Include="..\include\muParser\muParserDLL.cpp" />
+    <ClCompile Include="..\include\muParser\muParserError.cpp" />
+    <ClCompile Include="..\include\muParser\muParserInt.cpp" />
+    <ClCompile Include="..\include\muParser\muParserTest.cpp" />
+    <ClCompile Include="..\include\muParser\muParserTokenReader.cpp" />
+    <ClCompile Include="..\include\PugiXML\pugixml.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\CommonConstants.h" />
+    <ClInclude Include="..\Core\CustomItem.h" />
+    <ClInclude Include="..\Core\ErrorLogger.h" />
+    <ClInclude Include="..\Core\FilesystemUtils.h" />
+    <ClInclude Include="..\Core\LoadXML.h" />
+    <ClInclude Include="..\Core\MapManager.h" />
+    <ClInclude Include="..\Core\NodeMatch.h" />
+    <ClInclude Include="..\Core\Template.h" />
+    <ClInclude Include="..\Core\CustomItemReader.h" />
+    <ClInclude Include="..\include\muParser\muParser.h" />
+    <ClInclude Include="..\include\muParser\muParserBase.h" />
+    <ClInclude Include="..\include\muParser\muParserBytecode.h" />
+    <ClInclude Include="..\include\muParser\muParserCallback.h" />
+    <ClInclude Include="..\include\muParser\muParserDef.h" />
+    <ClInclude Include="..\include\muParser\muParserDLL.h" />
+    <ClInclude Include="..\include\muParser\muParserError.h" />
+    <ClInclude Include="..\include\muParser\muParserFixes.h" />
+    <ClInclude Include="..\include\muParser\muParserInt.h" />
+    <ClInclude Include="..\include\muParser\muParserStack.h" />
+    <ClInclude Include="..\include\muParser\muParserTemplateMagic.h" />
+    <ClInclude Include="..\include\muParser\muParserTest.h" />
+    <ClInclude Include="..\include\muParser\muParserToken.h" />
+    <ClInclude Include="..\include\muParser\muParserTokenReader.h" />
+    <ClInclude Include="..\include\PugiXML\pugiconfig.hpp" />
+    <ClInclude Include="..\include\PugiXML\pugixml.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

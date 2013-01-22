@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="PugiXML">
+      <UniqueIdentifier>{d292a2dc-6cf2-4971-ab55-b6e8e5159d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="muParser">
+      <UniqueIdentifier>{2705b433-8d87-41bb-9882-07dd4719b90d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\CustomItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\LoadXML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\MapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\NodeMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\PugiXML\pugixml.cpp">
+      <Filter>PugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserBase.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserBytecode.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserCallback.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserDLL.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserError.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserInt.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserTest.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParserTokenReader.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\muParser\muParser.cpp">
+      <Filter>muParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\CustomItemReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\FilesystemUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\ErrorLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\CustomItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\LoadXML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\MapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\NodeMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PugiXML\pugiconfig.hpp">
+      <Filter>PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PugiXML\pugixml.hpp">
+      <Filter>PugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParser.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserBase.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserBytecode.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserCallback.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserDef.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserDLL.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserError.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserFixes.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserInt.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserStack.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserTemplateMagic.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserTest.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserToken.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\muParser\muParserTokenReader.h">
+      <Filter>muParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\CustomItemReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\CommonConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\FilesystemUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ErrorLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
